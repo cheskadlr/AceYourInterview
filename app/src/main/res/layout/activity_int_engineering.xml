@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.cheskadelarosa.aceyourinterview.ContentActivity">
+
+    <TextView
+        android:id="@+id/tv_contentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="16dp"
+        android:text="Interview Questions for Engineering Students"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/iv_contentImg"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/tv_contentTitle"
+        android:layout_alignStart="@+id/tv_contentTitle"
+        android:layout_alignLeft="@+id/tv_contentTitle"
+        android:src="@drawable/picture"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_contentImg"
+        android:text="1. Tell me about the most challenging engineering project that you have been involved with during past year.
+
+2. Describe the most significant written technical report or presentation that you had to complete.
+
+3. In your last engineering position, what were some of the things that you spent the most time on, and how much time did you spend on each?
+
+4. What do you enjoy most/least about engineering?
+
+5. What new engineering specialty skills have you developed during the past year?
+
+6. Do you have any patents? If so, tell me about them. If not, is it something you see yourself pursuing and why or why not?
+
+7. Think of a specific engineering project when you answer this question. What could you have done to be more successful in achieving your goal(s)?
+
+8. Describe a time when you confronted a problem that really tested your engineering know-how.
+
+9. What is your overall career objective? Do you see yourself working in engineering ten years from now? If not, what do you think you will be doing?
+
+10. Give me an example of a time in which you were effective in doing away with the “constant emergencies” and “surprises” that engineers often face."></TextView></RelativeLayout>
