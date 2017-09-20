@@ -50,9 +50,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Technology"
-        android:layout_alignTop="@id/iv_fosTech"
-        android:layout_toRightOf="@id/iv_fosTech"
-        android:layout_toEndOf="@id/iv_fosTech"/>
+        android:layout_below="@+id/iv_fosSci"
+        android:layout_toRightOf="@+id/iv_fosTech"
+        android:layout_toEndOf="@+id/iv_fosTech" />
 
     <ImageView
         android:id="@+id/iv_fosEng"

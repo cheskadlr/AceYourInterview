@@ -8,20 +8,98 @@
     android:paddingLeft="16dp"
     tools:context="com.example.cheskadelarosa.aceyourinterview.HomeActivity">
 
+    <ImageView
+        android:id="@+id/iv_ojt"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/technology"/>
+
     <TextView
         android:id="@+id/tv_ojt"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
         android:text="Preparing for Interview (OJT)"
         android:textSize="14sp"
-        android:padding="15dp"/>
+        android:layout_toRightOf="@+id/iv_ojt"/>
+
+    <ImageView
+        android:id="@+id/iv_work"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/iv_ojt"
+        android:src="@drawable/work"/>
 
     <TextView
         android:id="@+id/tv_work"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_ojt"
         android:text="Preparing for Interview (Work)"
-        android:padding="15dp"/>
+        android:layout_alignTop="@+id/iv_work"
+        android:layout_toRightOf="@+id/iv_work"
+        android:layout_toEndOf="@+id/iv_work" />
+
+    <ImageView
+        android:id="@+id/iv_top10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/iv_work"
+        android:src="@drawable/top10"/>
+
+    <TextView
+        android:id="@+id/tv_top10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Top 10 interview questions and answers"
+        android:layout_alignTop="@+id/iv_top10"
+        android:layout_toRightOf="@+id/iv_top10"
+        android:layout_toEndOf="@+id/iv_top10" />
+
+    <ImageView
+        android:id="@+id/iv_top50"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/iv_top10"
+        android:src="@drawable/top50"/>
+
+    <TextView
+        android:id="@+id/tv_top50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="50 most common interview questions"
+        android:layout_alignTop="@+id/iv_top50"
+        android:layout_toRightOf="@+id/iv_top50"
+        android:layout_toEndOf="@+id/iv_top50" />
+
+    <ImageView
+        android:id="@+id/iv_videos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@id/iv_top50"
+        android:src="@drawable/videos"/>
+
+    <TextView
+        android:id="@+id/tv_videos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_top50"
+        android:layout_toRightOf="@id/iv_videos"
+        android:layout_alignTop="@id/iv_videos"
+        android:layout_toEndOf="@id/iv_videos"
+        android:text="Videos"/>
 </RelativeLayout>
