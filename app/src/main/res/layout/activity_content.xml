@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.cheskadelarosa.aceyourinterview.ContentActivity">
+
+    <TextView
+        android:id="@+id/tv_contentTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Title"
+        android:textSize="50sp"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:id="@+id/iv_contentImg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/tv_contentTitle"
+        android:layout_alignStart="@+id/tv_contentTitle"
+        android:layout_alignLeft="@+id/tv_contentTitle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_contentImg"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur luctus, nibh rhoncus commodo fermentum, dolor felis aliquet libero, et malesuada odio mi ac nisi. In nisi massa, malesuada dapibus ultricies a, consectetur ac mi. Pellentesque sapien tortor, suscipit sed erat vitae, malesuada dapibus ante. Phasellus lobortis est eu mollis condimentum.
+
+Fusce sit amet molestie dolor, non efficitur velit. Integer vulputate sem nulla, at lobortis lacus hendrerit sed. Vivamus vitae egestas turpis. Donec iaculis sed mi vitae eleifend. Donec blandit eros at ligula tristique, at mollis leo egestas. Donec interdum, dui ac faucibus sodales, neque dolor cursus metus, vitae varius enim mauris ac dui. In sit amet ultricies dui. Phasellus pellentesque dignissim cursus."/>
+</RelativeLayout>

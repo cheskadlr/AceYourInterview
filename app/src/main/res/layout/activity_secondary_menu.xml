@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.cheskadelarosa.aceyourinterview.SecondaryMenuActivity">
+
+    <ImageView
+        android:id="@+id/iv_2resume"
+        android:layout_marginTop="16dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/resume"/>
+
+    <TextView
+        android:id="@+id/tv_2resume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What should be on your resume"
+        android:layout_alignTop="@+id/iv_2resume"
+        android:layout_toRightOf="@+id/iv_2resume"
+        android:layout_toEndOf="@+id/iv_2resume" />
+
+    <ImageView
+        android:id="@+id/iv_2dos"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_2resume"
+        android:src="@drawable/dos"/>
+
+    <TextView
+        android:id="@+id/tv_2dos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DO's and DON'T's on an interview"
+        android:layout_alignTop="@id/iv_2dos"
+        android:layout_toRightOf="@id/iv_2dos"
+        android:layout_toEndOf="@id/iv_2dos"/>
+
+    <ImageView
+        android:id="@+id/iv_2bring"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_2dos"
+        android:src="@drawable/bring"/>
+
+    <TextView
+        android:id="@+id/tv_2bring"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What to bring?"
+        android:layout_alignTop="@id/iv_2bring"
+        android:layout_toRightOf="@id/iv_2bring"
+        android:layout_toEndOf="@id/iv_2bring"/>
+
+    <ImageView
+        android:id="@+id/iv_2prac"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_2bring"
+        android:src="@drawable/dos"/>
+
+    <TextView
+        android:id="@+id/tv_2prac"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Practice interview questions"
+        android:layout_below="@+id/tv_2bring"
+        android:layout_toRightOf="@+id/iv_2prac"
+        android:layout_alignTop="@id/iv_2prac"/>
+</RelativeLayout>

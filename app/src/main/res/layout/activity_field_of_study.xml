@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context="com.example.cheskadelarosa.aceyourinterview.FieldOfStudyActivity">
+
+    <TextView
+        android:id="@+id/tv_chooseField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose a field of study"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="20dp"/>
+
+    <ImageView
+        android:id="@+id/iv_fosSci"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tv_chooseField"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/science"/>
+
+    <TextView
+        android:id="@+id/tv_fosSci"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_chooseField"
+        android:layout_toRightOf="@+id/iv_fosSci"
+        android:text="Science"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:id="@+id/iv_fosTech"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_fosSci"
+        android:src="@drawable/technology"/>
+
+    <TextView
+        android:id="@+id/tv_fosTech"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technology"
+        android:layout_alignTop="@id/iv_fosTech"
+        android:layout_toRightOf="@id/iv_fosTech"
+        android:layout_toEndOf="@id/iv_fosTech"/>
+
+    <ImageView
+        android:id="@+id/iv_fosEng"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_fosTech"
+        android:src="@drawable/engineering"/>
+
+    <TextView
+        android:id="@+id/tv_fosEng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Engineering"
+        android:layout_alignTop="@id/iv_fosEng"
+        android:layout_toRightOf="@id/iv_fosEng"
+        android:layout_toEndOf="@id/iv_fosEng"/>
+
+    <ImageView
+        android:id="@+id/iv_fosMath"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_fosEng"
+        android:src="@drawable/math"/>
+
+    <TextView
+        android:id="@+id/tv_fosMath"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Math"
+        android:layout_alignTop="@id/iv_fosMath"
+        android:layout_toRightOf="@id/iv_fosMath"
+        android:layout_toEndOf="@id/iv_fosMath"/>
+
+    <ImageView
+        android:id="@+id/iv_fosAcct"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_fosMath"
+        android:src="@drawable/accountancy"/>
+
+    <TextView
+        android:id="@+id/tv_fosAcct"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accountancy"
+        android:layout_alignTop="@id/iv_fosAcct"
+        android:layout_toRightOf="@id/iv_fosAcct"
+        android:layout_toEndOf="@id/iv_fosAcct"/>
+
+    <ImageView
+        android:id="@+id/iv_fosBusiness"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_below="@+id/iv_fosAcct"
+        android:src="@drawable/business"/>
+
+    <TextView
+        android:id="@+id/tv_fosBusiness"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Technology"
+        android:layout_alignTop="@id/iv_fosBusiness"
+        android:layout_toRightOf="@id/iv_fosBusiness"
+        android:layout_toEndOf="@id/iv_fosBusiness"/>
+</RelativeLayout>
